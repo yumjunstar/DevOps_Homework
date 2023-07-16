@@ -12,7 +12,6 @@ docker run -it -v print_calculation_service/data:/app/data/ -v share_dir:/app/sh
 ```
 cd print_web_service
 docker build -t print_web_service .
-
 docker load -i print_web_service.tar
 docker run -it -p 5000:5000 -v share_dir:/app/share_dir --name print_web_service print_web_service:0.0.1
 ```
