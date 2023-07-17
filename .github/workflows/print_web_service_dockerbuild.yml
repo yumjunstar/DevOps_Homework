@@ -14,5 +14,5 @@ jobs:
 
     steps:
     - uses: actions/checkout@v3
-    - name: Build the Calculation Docker image
+    - name: Build the Web Docker image
       run: docker build -t print_web_service:$(date +%s) 07_13_docker_distribution/print_web_service/
