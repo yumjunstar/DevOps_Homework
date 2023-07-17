@@ -8,8 +8,8 @@ class Test_cal_service(TestCase):
     #     super().__init__()
     #     self.a = None
     #     self.b = None
-    input_paths = "data/input.txt"
-    output_paths = "../share_dir/output.txt"
+    input_paths = "07_13_docker_distribution/print_calculation_service/data/input.txt"
+    output_paths = "07_13_docker_distribution/share_dir/output.txt"
     def set_test_range(self):
         self.a = random.sample(range(0, int(1E10)), 1000)
         self.b = random.sample(range(0, int(1E10)), 1000)
